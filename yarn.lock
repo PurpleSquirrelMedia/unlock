@@ -15267,7 +15267,7 @@ __metadata:
     solium: 1.2.5
     truffle-assertions: 0.9.2
     web3: 1.7.3
-    web3-eth-abi: 1.7.3
+    web3-eth-abi: 1.7.4
   languageName: unknown
   linkType: soft
 
@@ -52146,6 +52146,16 @@ typescript@^3.8.3:
   languageName: node
   linkType: hard
 
+"web3-eth-abi@npm:1.7.4":
+  version: 1.7.4
+  resolution: "web3-eth-abi@npm:1.7.4"
+  dependencies:
+    "@ethersproject/abi": ^5.6.3
+    web3-utils: 1.7.4
+  checksum: f0ce4149dccf681349338d2ed5162d9f0fc4dcaf91639a4278cdec02e08858d969e56678cfc10f63668b7ddf41c53ff3d79d17fa92d158f96f94db3f31efb6f5
+  languageName: node
+  linkType: hard
+
 "web3-eth-accounts@npm:1.2.1":
   version: 1.2.1
   resolution: "web3-eth-accounts@npm:1.2.1"
@@ -53626,6 +53636,21 @@ typescript@^3.8.3:
     randombytes: ^2.1.0
     utf8: 3.0.0
   checksum: 96fd1d7310f4674ddccbd1f2f8e1ff1817b8869a67a1562ef3ce1130ae50dfec8e64fc4ce9f80855d87fa63fb6dd71b4561e5e1925be5b26f3787b0d4e5f89e7
+  languageName: node
+  linkType: hard
+
+"web3-utils@npm:1.7.4":
+  version: 1.7.4
+  resolution: "web3-utils@npm:1.7.4"
+  dependencies:
+    bn.js: ^5.2.1
+    ethereum-bloom-filters: ^1.0.6
+    ethereumjs-util: ^7.1.0
+    ethjs-unit: 0.1.6
+    number-to-bn: 1.7.0
+    randombytes: ^2.1.0
+    utf8: 3.0.0
+  checksum: 5d9256366904e5c24c7198a8791aa76217100aa068650ccc18264ff670d1e8d42d40fcc5ddc66e3c05fac3b480753ccf7e519709e60aefd73d71dd4c4d2adcbb
   languageName: node
   linkType: hard
 
