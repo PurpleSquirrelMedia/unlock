@@ -7,4 +7,4 @@ export * from './bsc';
 export * from './optimism';
 export * from './mumbai';
 export * from './avalanche';
-
+export * from './goerli'
