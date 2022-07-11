@@ -401,6 +401,7 @@ Add info about unlock and multisig to the network file
 - add the unlock address to `unlockAddress` 
 - add the gnosis safe address to `multisig`
 - add the block number before Unlock contract creation as `startBlock`
+- rebuild the package with `yarn build`
 
 ### Deploy a subgraph
 
@@ -410,11 +411,11 @@ Add info about unlock and multisig to the network file
 # got to the subgraph folder
 cd subgraph
 
-# generate .ts contract and template
-yarn codegen
-
 # create the subgraph.yaml 
 yarn generate-subgraph-yaml --network goerli
+
+# generate .ts contract and template
+yarn codegen
 
 # build as JSON/wasm
 yarn build --network goerli
