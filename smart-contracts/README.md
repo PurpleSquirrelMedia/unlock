@@ -328,15 +328,17 @@ yarn hardhat verify <address> --network binance
 
 ## How to deploy the Protocol on a new network
 
+### Create accounts file
+
+Get tokens and add your account. In the smart contracts folder, create an `accounts.<xxx>.js` file.
+
+ex. `accounts.goerli.ts`
+
 ### Add network to `@unlock-protocol/networks` 
 
 - add `goerli.ts` to `packages/networks/src`
 - add `export * from './goerli'` to `packages/networks/src/index.ts`
 
-### Create accounts file
-
-- in the smart contracts folder, create accounts
-ex. `accounts.goerli.ts`
 
 ### Deploy contracts 
 
