@@ -69,13 +69,10 @@ if (process.env.BSCSCAN_API_KEY) {
   etherscan.apiKey.bsc = process.env.BSCSCAN_API_KEY
 }
 if (process.env.ARBISCAN_API_KEY) {
-  etherscan.apiKey.arbitrum = process.env.ARBISCAN_API_KEY
+  etherscan.apiKey.arbitrumOne = process.env.ARBISCAN_API_KEY
 }
 if (process.env.OPTIMISTIC_ETHERSCAN_API_KEY) {
   etherscan.apiKey.optimisticEthereum = process.env.OPTIMISTIC_ETHERSCAN_API_KEY
-}
-if (process.env.ARBISCAN_API_KEY) {
-  etherscan.apiKey.arbitrumOne = process.env.ARBISCAN_API_KEY
 }
 
 // add mainnet fork -- if API key is present
