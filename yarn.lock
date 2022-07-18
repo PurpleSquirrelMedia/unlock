@@ -15206,7 +15206,7 @@ __metadata:
     eslint: 8.16.0
     fs-extra: 10.1.0
     hardhat: 2.9.9
-    typescript: 4.7.2
+    typescript: 4.7.4
   languageName: unknown
   linkType: soft
 
@@ -15251,7 +15251,7 @@ __metadata:
     tslint: 5.20.1
     tslint-config-prettier: 1.18.0
     tslint-plugin-prettier: 2.3.0
-    typescript: 4.7.2
+    typescript: 4.7.4
   peerDependencies:
     hardhat: 2.9.9
   languageName: unknown
@@ -15361,7 +15361,7 @@ __metadata:
   dependencies:
     "@unlock-protocol/tsconfig": "workspace:^"
     "@unlock-protocol/types": "workspace:^"
-    typescript: 4.7.2
+    typescript: 4.7.4
   languageName: unknown
   linkType: soft
 
@@ -15399,7 +15399,7 @@ __metadata:
     react-test-renderer: 17.0.2
     style-loader: 3.3.1
     styled-components: 5.3.5
-    typescript: 4.7.2
+    typescript: 4.7.4
   languageName: unknown
   linkType: soft
 
@@ -15427,7 +15427,7 @@ __metadata:
     style-loader: 3.3.1
     ts-jest: 27.1.5
     ts-loader: 9.3.0
-    typescript: 4.7.2
+    typescript: 4.7.4
     webpack: 5.73.0
     webpack-cli: 4.10.0
   languageName: unknown
@@ -15545,7 +15545,7 @@ __metadata:
   dependencies:
     "@unlock-protocol/tsconfig": "workspace:./packages/tsconfig"
     ethers: 5.6.9
-    typescript: 4.7.2
+    typescript: 4.7.4
   languageName: unknown
   linkType: soft
 
@@ -15582,7 +15582,7 @@ __metadata:
     tailwindcss: 3.1.4
     tsconfig-paths-webpack-plugin: 3.5.2
     tsup: 6.1.2
-    typescript: 4.7.2
+    typescript: 4.7.4
     vite: 2.9.9
     vite-tsconfig-paths: 3.5.0
   peerDependencies:
@@ -15740,7 +15740,7 @@ __metadata:
     tailwind-merge: 1.2.1
     tailwindcss: 3.0.24
     ts-jest: 27.1.5
-    typescript: 4.7.2
+    typescript: 4.7.4
     validator: 13.7.0
     walletlink: 2.5.0
     xstate: 4.32.1
@@ -15820,7 +15820,7 @@ __metadata:
     siwe: 1.1.6
     ts-jest: 27.1.5
     tsup: 6.1.2
-    typescript: 4.7.2
+    typescript: 4.7.4
   peerDependencies:
     ethers: 5.6.9
   languageName: unknown
@@ -15883,7 +15883,7 @@ __metadata:
     tailwind-merge: 1.3.0
     tailwindcss: 3.0.24
     ts-jest: 27.1.5
-    typescript: 4.6.4
+    typescript: 4.7.4
     use-local-storage: 2.3.6
     vitest: 0.16.0
     yaml-front-matter: 4.1.1
@@ -15915,7 +15915,7 @@ __metadata:
     prettier: 2.7.1
     regenerator-runtime: 0.13.9
     ts-jest: 27.1.5
-    typescript: 4.7.2
+    typescript: 4.7.4
     webpack: 5.73.0
     webpack-cli: 4.10.0
     winston: 3.8.1
@@ -50545,13 +50545,13 @@ typescript@4.6.4:
   languageName: node
   linkType: hard
 
-typescript@4.7.2:
-  version: 4.7.2
-  resolution: "typescript@npm:4.7.2"
+typescript@4.7.4:
+  version: 4.7.4
+  resolution: "typescript@npm:4.7.4"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 5163585e6b56410f77d5483b698d9489bbee8902c99029eb70cf6d21525a186530ce19a00951af84eefd4a131cc51d0959f5118e25e70ab61f45ac4057dbd1ef
+  checksum: 5750181b1cd7e6482c4195825547e70f944114fb47e58e4aa7553e62f11b3f3173766aef9c281783edfd881f7b8299cf35e3ca8caebe73d8464528c907a164df
   languageName: node
   linkType: hard
 
@@ -50575,13 +50575,13 @@ typescript@^3.8.3:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@4.7.2#~builtin<compat/typescript>":
-  version: 4.7.2
-  resolution: "typescript@patch:typescript@npm%3A4.7.2#~builtin<compat/typescript>::version=4.7.2&hash=ddd1e8"
+"typescript@patch:typescript@4.7.4#~builtin<compat/typescript>":
+  version: 4.7.4
+  resolution: "typescript@patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=ddd1e8"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 09d93fc0983d38eadd9b0427f790b49b4437f45002a87d447be3fbe53120880e87a91dd03e1d900498f99205d6e0b7c9784fe41fca11d56f4bbce371f74bb160
+  checksum: 96d3030cb01143570567cb4f3a616b10df65f658f0e74e853e77a089a6a954e35c800be7db8b9bfe9a1ae05d9c2897e281359f65e4caa1caf266368e1c4febd3
   languageName: node
   linkType: hard
 
@@ -51197,7 +51197,7 @@ typescript@^3.8.3:
     husky: 8.0.1
     lint-staged: 13.0.0
     prettier: 2.6.2
-    typescript: 4.6.4
+    typescript: 4.7.4
   languageName: unknown
   linkType: soft
 
